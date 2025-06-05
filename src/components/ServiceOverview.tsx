@@ -6,21 +6,21 @@ const ServiceOverview = () => {
   const services = [
     {
       icon: <Rocket className="w-8 h-8 text-blue-600" />,
-      title: "MVP Development",
-      description: "Complete minimum viable product built with modern technologies, ready for user testing and market validation.",
-      features: ["Custom development", "Modern tech stack", "Mobile responsive", "User-ready interface"]
+      title: "Desarrollo de MVP",
+      description: "Producto mínimo viable completo construido con tecnologías modernas, listo para pruebas de usuario y validación de mercado.",
+      features: ["Desarrollo personalizado", "Stack tecnológico moderno", "Responsive móvil", "Interfaz lista para usuarios"]
     },
     {
       icon: <Globe className="w-8 h-8 text-green-600" />,
-      title: "Landing Page",
-      description: "Professional, conversion-optimized landing page designed to attract and convert your target audience.",
-      features: ["Conversion optimized", "SEO ready", "Analytics setup", "Professional design"]
+      title: "Página de Aterrizaje",
+      description: "Página de aterrizaje profesional optimizada para conversión, diseñada para atraer y convertir tu audiencia objetivo.",
+      features: ["Optimizada para conversión", "Lista para SEO", "Configuración de analytics", "Diseño profesional"]
     },
     {
       icon: <GraduationCap className="w-8 h-8 text-purple-600" />,
-      title: "Lean Running Course",
-      description: "Comprehensive course teaching lean startup methodology to maximize your chances of success.",
-      features: ["Expert guidance", "Practical frameworks", "Case studies", "Ongoing support"]
+      title: "Curso Lean Running",
+      description: "Curso integral que enseña metodología lean startup para maximizar tus posibilidades de éxito.",
+      features: ["Guía experta", "Marcos prácticos", "Casos de estudio", "Soporte continuo"]
     }
   ];
 
@@ -29,10 +29,10 @@ const ServiceOverview = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-            Everything You Need to Launch Successfully
+            Todo lo que Necesitas para Lanzar con Éxito
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Our comprehensive package includes all the essential components to take your business idea from concept to market-ready product.
+            Nuestro paquete integral incluye todos los componentes esenciales para llevar tu idea de negocio desde el concepto hasta un producto listo para el mercado.
           </p>
         </div>
 

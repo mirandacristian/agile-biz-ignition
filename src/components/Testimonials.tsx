@@ -7,24 +7,24 @@ const Testimonials = () => {
     {
       name: "Sarah Chen",
       role: "CEO, TechStart Solutions",
-      company: "Traditional Manufacturing SME",
-      content: "The MVP was delivered exactly on time and exceeded our expectations. The lean course helped us avoid costly mistakes and focus on what really matters to our customers.",
+      company: "PYME Manufacturera Tradicional",
+      content: "El MVP fue entregado exactamente a tiempo y superó nuestras expectativas. El curso lean nos ayudó a evitar errores costosos y enfocarnos en lo que realmente importa a nuestros clientes.",
       rating: 5,
       avatar: "SC"
     },
     {
       name: "Marcus Weber",
-      role: "Founder",
-      company: "FinTech Startup",
-      content: "From idea to functioning product in 2 weeks seemed impossible, but they delivered. The landing page generated 200+ leads in the first month, and the lean methodology course was invaluable.",
+      role: "Fundador",
+      company: "Startup FinTech",
+      content: "De idea a producto funcionando en 2 semanas parecía imposible, pero lo lograron. La página de aterrizaje generó más de 200 leads en el primer mes, y el curso de metodología lean fue invaluable.",
       rating: 5,
       avatar: "MW"
     },
     {
       name: "Elena Rodriguez",
-      role: "Innovation Director",
-      company: "Retail Chain (500+ employees)",
-      content: "As a traditional business looking to innovate, this package gave us everything we needed to test our digital product idea quickly and professionally. ROI was clear within 6 weeks.",
+      role: "Directora de Innovación",
+      company: "Cadena Retail (500+ empleados)",
+      content: "Como empresa tradicional buscando innovar, este paquete nos dio todo lo necesario para probar nuestra idea de producto digital rápida y profesionalmente. El ROI fue claro en 6 semanas.",
       rating: 5,
       avatar: "ER"
     }
@@ -35,10 +35,10 @@ const Testimonials = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-            Trusted by Ambitious Entrepreneurs
+            Confiado por Emprendedores Ambiciosos
           </h2>
           <p className="text-xl text-slate-600">
-            See what our clients say about their MVP journey
+            Descubre qué dicen nuestros clientes sobre su viaje MVP
           </p>
         </div>
 

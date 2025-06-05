@@ -10,29 +10,29 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 leading-tight">
-                From Idea to
-                <span className="text-blue-600"> Live MVP</span>
+                De Idea a
+                <span className="text-blue-600"> MVP en Vivo</span>
                 <br />
-                in Just 2 Weeks
+                en Solo 2 Semanas
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed">
-                Complete MVP development, professional landing page, and lean startup course for ambitious entrepreneurs and innovative SMEs.
+                Desarrollo completo de MVP, página de aterrizaje profesional y curso de metodología lean para emprendedores ambiciosos y PYMEs innovadoras.
               </p>
             </div>
             
             <div className="flex items-center space-x-6">
               <div className="text-3xl font-bold text-slate-900">€4,990</div>
               <div className="text-sm text-slate-500">
-                <div>All-inclusive package</div>
-                <div>No hidden costs</div>
+                <div>Paquete todo incluido</div>
+                <div>Sin costos ocultos</div>
               </div>
             </div>
 
             <div className="space-y-3">
               {[
-                "Complete MVP Development",
-                "Professional Landing Page",
-                "Lean Running Course Access"
+                "Desarrollo Completo de MVP",
+                "Página de Aterrizaje Profesional",
+                "Acceso al Curso Lean Running"
               ].map((feature, index) => (
                 <div key={index} className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
@@ -43,11 +43,11 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
-                Start Your MVP Journey
+                Inicia tu Viaje MVP
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button variant="outline" size="lg" className="px-8 py-4 text-lg">
-                Watch Demo
+                Ver Demo
               </Button>
             </div>
           </div>
